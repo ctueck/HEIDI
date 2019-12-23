@@ -1,2 +1,2 @@
-# HEDII
-Higher Education Data Interoperability Initiative
+# HEIDI
+Higher Education Interoperable Data Initiative
