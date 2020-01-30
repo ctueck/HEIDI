@@ -94,8 +94,27 @@ There must be a link to QA data
 ### Technical Requirements
 
 #### Linked Open Data
-Linked Open Data 
-[Linked Open Data](https://www.w3.org/wiki/LinkedData)
+We propose that all interoperability should be based around the concept of [Linked Open Data](https://www.w3.org/wiki/LinkedData). Tim Berners Lee, the creator of the web has published guidelines for Linked Open Data through the W3. These encompass four rules, and a ‘quality classification’. The four rules for linked data are:
+
+1. Use URIs as names for things
+1. Use HTTP URIs so that people can look up those names.
+1. When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)
+1. Include links to other URIs. so that they can discover more things.
+
+The quality conventions around Linked Open Data envisage 5 star levels of open data. The 5 Star Linked Data system is cumulative. Each additional star presumes the data meets the criteria of the previous step(s).
+
+☆ Data is available on the Web, in whatever format.	
+
+☆☆ Available as machine-readable structured data, (i.e., not a scanned image).
+
+☆☆☆ Available in a non-proprietary format, (i.e, CSV, not Microsoft Excel).	
+
+☆☆☆☆ Published using open standards from the W3C (RDF and SPARQL).	
+
+☆☆☆☆☆ All of the above and links to other Linked Open Data.
+
+
+
 
 #### Serialisaiton
 RDF
