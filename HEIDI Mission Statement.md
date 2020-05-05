@@ -59,7 +59,7 @@ All other data discussed herein (institutions, courses, etc.) is inherently publ
 
 - Europass Digital Credentials Infrastructure (EDCI)
 - Erasmus Without Papers (EWP)
-- Emrex
+- Emrex (implementing ELMO spec)
 - European Student Card (ESC)
 - My Academic ID
 - Database of External Quality Assurance Results (DEQAR)
