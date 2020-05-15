@@ -20,6 +20,9 @@ Various approaches already exist to identify higher education institutions in Eu
 
 At the moment, these are not articulated to each other.
 
+## Use Cases
+Placeholder to insert use cases from stakeholders.
+
 ## Requirements
 
 - unique
