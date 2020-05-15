@@ -57,6 +57,8 @@ All other data discussed herein (institutions, courses, etc.) is inherently publ
 
 ## Initiatives Requiring Interoperability
 
+There are numerous local, regional, national, European and international initiatives that deal with data in higher education. In the beginning, HEIDI aims to bring together the essential European-level projects and systems, focusing on publicly-funded or publicly-endorsed ones.
+
 - Europass Digital Credentials Infrastructure (EDCI)
 - Erasmus Without Papers (EWP)
 - Emrex (implementing ELMO spec)
@@ -81,9 +83,7 @@ The Initiative should be stakeholder-led, that is, driven by the initiatives con
 
 It should be ensured that the European Commission, governments and further stakeholders (e.g. European representative organisations) endorse the Initiative's efforts and standards. Given the scope, this could be best achieved by informing the EHEA's working structures, i.e. the Bologna Follow-Up Group (BFUG), and possibly suggesting that the Initiative become part of the 2020-2023 EHEA work programme.
 
-The Initiative needs to take into account that different organisations each manage different, specific initiatives/systems within their own remit. While the Initiative aims to achieve necessary harmonisation, it does not aim to centralise or change different organisations' responsibilities.
-
-#### Many Identifiers or One Identifier
+The Initiative recognises that different organisations each manage specific initiatives/systems within their own remit, and does not aim to change these.
 
 ### Licence Requirements
 Free (as in air)
@@ -98,7 +98,7 @@ We propose that all interoperability should be based around the concept of [Link
 
 1. Use URIs as names for things
 1. Use HTTP URIs so that people can look up those names.
-1. When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)
+1. When someone looks up a URI, provide useful information, using the standards (RDF, SPARQL)
 1. Include links to other URIs. so that they can discover more things.
 
 The quality conventions around Linked Open Data envisage 5 star levels of open data. The 5 Star Linked Data system is cumulative. Each additional star presumes the data meets the criteria of the previous step(s).
@@ -113,24 +113,35 @@ The quality conventions around Linked Open Data envisage 5 star levels of open d
 
 ☆☆☆☆☆ All of the above and links to other Linked Open Data.
 
-
-
-
 #### Serialisaiton
 RDF
 JSON-LD
 
-## Infrastructure Considerations
-### Centralised
-### Distributed
-### Decentralised
+#### Infrastructure Considerations
+
+Responsibilities for various data and systems are distributed between institutional, national and European levels, as well as between different organisations or consortia at the European level. The Initiative seeks to achieve necessary harmonisation between different systems, while respecting their remits and autonomy.
+
+That is, HEIDI does not aim to centralise infrastructure or responsibilities. Instead, the aim is to mutually agree on standards to allow our distributed systems to interact.
+
+Consequently, each organisation should remain responsible for its infrastructure and for implementing the agreed standard(s) within the system(s) it manages.
 
 ## Applications & Priorities
+
+The following sections list concrete problem domains that should be tackled, in order of priority:
+
 ### Higher Education Institution Identifiers
+
+Given their crucial importance, we suggest that Higher Education Institution Identifiers be the first problem domain to be concretely addressed.
 The following 
 [whitepaper](https://github.com/anthonycamilleri/HEIDI/blob/master/HEIDI%20HEI%20Identifiers%20Whitepaper.md) discusses options for HEI Identifiers.
-### todo
 
-## Coordinating Activity
-### Stakeholders which need to be coordinated
-### Coordinating Structure
+### to be continued
+
+Other problem domains should be added over time
+
+## Coordinating Structure
+
+A range of informal conversations were held on the need to address interoperability between a range of individuals and initiatives throughout 2019.
+
+((organisations)) agreed to jointly convene a first meeting ... In its [DEQAR CONNECT project](https://www.eqar.eu/kb/projects/deqar-connect/), EQAR undertook to convene a roundtable of higher education data-related projects and initiatives.
+
