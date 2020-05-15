@@ -116,14 +116,25 @@ The quality conventions around Linked Open Data envisage 5 star levels of open d
 #### Serialisaiton
 RDF
 JSON-LD
+XML
 
 #### Infrastructure Considerations
 
-Responsibilities for various data and systems are distributed between institutional, national and European levels, as well as between different organisations or consortia at the European level. The Initiative seeks to achieve necessary harmonisation between different systems, while respecting their remits and autonomy.
+Responsibilities for various data and systems are distributed between institutional, national and European levels, as well as between different organisations or consortia at the European level. The Initiative seeks to achieve necessary harmonisation between different systems, while respecting their remits and autonomy. In doing so, three classes of solutions present themselves, each with varying degrees of privacy protections and distribution of control. HEIDI should in its early stages make a commitment to one of these infrastructural models, or to hybrid systems that combine elements of the models:
 
-That is, HEIDI does not aim to centralise infrastructure or responsibilities. Instead, the aim is to mutually agree on standards to allow our distributed systems to interact.
+##### Centralised
+HEIDI does not aim to centralise infrastructure or responsibilities. Instead, the aim is to mutually agree on standards to allow our  systems to interact. Each organisation should remain responsible for its infrastructure and for implementing the agreed standard(s) within the system(s) it manages. (Under such a model, communciation would occur: Institution A -->  Repository --> Institution B) Centralised databases support this model.
 
-Consequently, each organisation should remain responsible for its infrastructure and for implementing the agreed standard(s) within the system(s) it manages.
+##### Distributed
+A distributed model implies a central role for a 'clearinghouse' of institutional data, which has a central role in connecting all federated databases to each other. Under such a model the clearinghouse would link identifiers to one another, route requests and perform other similar functions. (Institution A --> Hub A -->  Clearinghouse --> Hub  B --> Institution B) Technologies such as centralised mapping/conversion tables support this use case.
+
+##### Decentralised Gatekeepers
+In a decentralised gatekeepers model, a new decentralised network made up of other networks (each of which may centralised, distribtued or decentralied in itself). Each network would be fully fully autonomous, but a set of protocols would govern how they interact with each other. Thus data exchange would happen on the folowing flow: (Institution A --> Hub A --> Hub  B --> Institution B) Technologies such as stamdardsed API Frameworks support this use model
+
+##### Fully Decentralised
+In a fully decentralised model, each institution receives a generic decentralised identifier which it uses to manage its identity. It may receive further identifiers which it collects in its wallet from other networks, but it remains the source for its identity. Under this model, all identifiers except the DID become verifiable credentials issued by other organisations. Data Exchange can happen on the followin flow (Institution A --> Institution B). A crop of emerging standards such as W3C DID and W3C support these implemenetations.
+
+
 
 ## Applications & Priorities
 
@@ -135,7 +146,9 @@ Given their crucial importance, we suggest that Higher Education Institution Ide
 The following 
 [whitepaper](https://github.com/anthonycamilleri/HEIDI/blob/master/HEIDI%20HEI%20Identifiers%20Whitepaper.md) discusses options for HEI Identifiers.
 
-### to be continued
+### Course Identifiers
+
+If HEI Identifiers are solved, it becomes easy to solve course identifiers, via a specification that sets a course identifier as HEI Identifier/Course Identifier. We therefore would propose addressing this issue after HEI Identifiers
 
 Other problem domains should be added over time
 
