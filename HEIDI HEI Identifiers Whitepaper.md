@@ -26,15 +26,38 @@ Given that each organisation has their own approach how to deal with demographic
 In conclusion, existing identifiers for HEIs in Europe are currently not fully articulated to each other.
 
 ## Use Cases
-Placeholder to insert use cases from stakeholders.
+
+The following use cases should be made possible/be facilitated by an enhanced approach to HEI identifiers.
+
+**NB: This is an initial collection of use cases. We aim to supplement those with contributions from stakeholders during the discussion.**
+
+### Cross-check Institution Data
+
+**Users:** HEIs, recognition offices, students, employers
+
+The users receives data from or about a HEI, and wishes to automatically search another database for additional data about the HEI concerned.
+
+For example, the user might recieve student mobility data, such as a transcript of records, via EMREX or EWP, or a qualification from a student applying for recognition. The user wants to acquire information on the sending institution's quality assurance status from DEQAR.
+
+### Populate EDCI Accreditation Database
+
+**Users:** national authority
+
+The authority wants to populate the Accreditation Database for Europass Digital Credentials with data on quality-assured HEIs that is already available in DEQAR.
+
+### Correlate Datasets
+
+**Users:** researchers, policy makers, statistics offices
+
+The user has data on HEIs in Europe and wishes to correlate this with other data or statistics, e.g. from ETER.
 
 ## Requirements
 
-- unique
-- stable over time
-- track demography & history (e.g. mergers, name changes, ...)
+To be derived from use cases and discussed at first meeting.
 
 ## Options
+
+To be formulated in generic terms and then discussed at first meeting.
 
 1. Agreement on one system
     - Could we agree on one? Which one?
