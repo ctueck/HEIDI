@@ -126,7 +126,7 @@ Any group of members of the group may propose a problem domain to be addressed. 
 Each problem domain must follow a standardised procedure for resolution:
 
 **Definition of Use Cases**
-Definition of use cases is the first step. It involves member organisations explaining the issues they wish to solve under the problem domain. Use cases must be accepted by the group working on the domain for inclusion. A procedure is outlined [here](supporting/UseCaseTemplate.md). Use cases should ideally be defined by persons who work with them.
+Definition of use cases is the first step. It involves member organisations explaining the issues they wish to solve under the problem domain. Use cases must be accepted by the group working on the domain for inclusion. A procedure is outlined [here](Supporting/UseCaseTemplate.md). Use cases should ideally be defined by persons who work with them.
 
 **Proposal of Requirements**
 Based on the use cases a proposal for requirements for a technical solution will be prepared. The requirements set the minimum criteria the solution must meet to be considered acceptable. Requirements should be made on the proposal of technical experts, and endorsed by the wider policy group.
