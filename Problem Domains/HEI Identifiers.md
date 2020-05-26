@@ -29,7 +29,7 @@ In conclusion, existing identifiers for HEIs in Europe are currently not fully a
 
 The following use cases should be made possible/be facilitated by an enhanced approach to HEI identifiers.
 
-**NB: This is an initial collection of use cases. We aim to supplement those with contributions from stakeholders during the discussion.**
+**NB: This is an initial collection of use cases. We aim to supplement those with contributions from stakeholders during the discussion. Use cases should be defined in line with [this template](../Supporting/UseCaseTemplate.md).**
 
 ### Cross-check Institution Data
 

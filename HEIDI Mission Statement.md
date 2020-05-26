@@ -98,8 +98,7 @@ The following sections list concrete problem domains that should be tackled, in 
 ### Higher Education Institution Identifiers
 
 Given their crucial importance, we suggest that Higher Education Institution Identifiers be the first problem domain to be concretely addressed.
-The following 
-[whitepaper](https://github.com/anthonycamilleri/HEIDI/blob/master/HEIDI%20HEI%20Identifiers%20Whitepaper.md) discusses options for HEI Identifiers.
+The following [whitepaper](Problem Domains/HEI Identifiers.md) discusses options for HEI Identifiers.
 
 ### Minimum Common Data Formats
 An agreement would cover the minimum fields different data models should harmonise, for the purposes of promoting interoperability.
@@ -114,5 +113,32 @@ Other problem domains should be added over time
 
 A range of informal conversations were held on the need to address interoperability between a range of individuals and initiatives throughout 2019.
 
-((organisations)) agreed to jointly convene a first meeting ... In its [DEQAR CONNECT project](https://www.eqar.eu/kb/projects/deqar-connect/), EQAR undertook to convene a roundtable of higher education data-related projects and initiatives.
+### Working Methods
+((organisations)) agreed to jointly convene a first meeting ... In its [DEQAR CONNECT project](https://www.eqar.eu/kb/projects/deqar-connect/), EQAR undertook to convene a roundtable of higher education data-related projects and initiatives. 
 
+Each problem domain should be tackled via regular web conferences, held at least once a month. 
+
+Typically a problem domain should be managed by a *policy group* supported by a *technical group* who gives independent technical advice to the policy group.
+
+### Working Procedure
+Any group of members of the group may propose a problem domain to be addressed. Prioritisation of problem domains are the remit of the whole group.
+
+Each problem domain must follow a standardised procedure for resolution:
+
+**Definition of Use Cases**
+Definition of use cases is the first step. It involves member organisations explaining the issues they wish to solve under the problem domain. Use cases must be accepted by the group working on the domain for inclusion. A procedure is outlined [here](supporting/UseCaseTemplate.md). Use cases should ideally be defined by persons who work with them.
+
+**Proposal of Requirements**
+Based on the use cases a proposal for requirements for a technical solution will be prepared. The requirements set the minimum criteria the solution must meet to be considered acceptable. Requirements should be made on the proposal of technical experts, and endorsed by the wider policy group.
+
+**Outline of Scenarios for Technical Solutions**
+It is the mandate of the technical group to propose a menu of technical scenarios which match the requirements. The following provides high-level guidance on possible [architectural scenarios](Supporting/Architectural Scenarios).
+
+**Selection of a Preferred Implementation Scenario**
+The policy group will discuss, improve and select a preferred implementation scenario from the options presented.
+
+**Publication of Standard**
+The decision of the policy group will then be translated into a documented agreement covering policy, governance, content and  technical aspects, to be authored jointly by the policy and technical groups.
+
+**Agreement of  Standard**
+Once the standard is published, members/organisations should notify their implementation of it.
