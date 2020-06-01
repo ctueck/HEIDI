@@ -33,23 +33,35 @@ The following use cases should be made possible/be facilitated by an enhanced ap
 
 ### Cross-check Institution Data
 
-**Users:** HEIs, recognition offices, students, employers
+**Actor:** HEI, recognition officer, student, employer
 
-The users receives data from or about a HEI, and wishes to automatically search another database for additional data about the HEI concerned.
+**Submitter:** [Colin Tück](https://github.com/ctueck)
+
+**User Story:** The users receives data from or about a HEI, and wishes to automatically search another database for additional data about the HEI concerned.
 
 For example, the user might recieve student mobility data, such as a transcript of records, via EMREX or EWP, or a qualification from a student applying for recognition. The user wants to acquire information on the sending institution's quality assurance status from DEQAR.
 
+**Restrictions:** none
+
 ### Populate EDCI Accreditation Database
 
-**Users:** national authority
+**Actor:** national authority
 
-The authority wants to populate the Accreditation Database for Europass Digital Credentials with data on quality-assured HEIs that is already available in DEQAR.
+**Submitter:** [Colin Tück](https://github.com/ctueck)
+
+**User Story:** The authority wants to populate the Accreditation Database for Europass Digital Credentials with data on quality-assured HEIs that is already available in DEQAR.
+
+**Restrictions:** none
 
 ### Correlate Datasets
 
-**Users:** researchers, policy makers, statistics offices
+**Actor:** researcher, policy maker, statistics office
 
-The user has data on HEIs in Europe and wishes to correlate this with other data or statistics, e.g. from ETER.
+**Submitter:** [Colin Tück](https://github.com/ctueck)
+
+**User Story:** The user has data on a number of HEIs in Europe and wishes to correlate this with other data or statistics on the same HEIs, e.g. from ETER.
+
+**Restrictions:** none
 
 ## Requirements
 
@@ -57,18 +69,5 @@ To be derived from use cases and discussed at first meeting.
 
 ## Options
 
-To be formulated in generic terms and then discussed at first meeting.
-
-1. Agreement on one system
-    - Could we agree on one? Which one?
-    - Who maintains it?
-2. One or several systems to provide mapping/link
-    - Who could offer it?
-    - How to propagate changes? Risk of inconsistencies?
-3. Institutions to publish their identifiers
-    - How to ensure critical mass?
-    - How to discover institution's list?
-4. Additional mapping/translation service
-    - Who would run it?
-    - Maybe highest overhead of all options
+To be elaborated and discussed after first meeting.
 
