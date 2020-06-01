@@ -1,17 +1,21 @@
-# HEIDI
-Higher Education Interoperable Data Initiative
+Higher Education Interoperable Data Initiative (HEIDI)
+======================================================
 
-## Problem Definition and Goal
+Introduction and Goals
+----------------------
 
 There are a number of data-related projects and systems in European higher education, tackling student data, statistics or databases of institutions, amongst others. At the moment, we are not really interoperable. This creates costs, ineffeciencies and lack of transparency.
 
 We would like to see these projects/systems interoperate seamlessly and thus serve best a large number of users in the European higher education community. Better linking the various data sets and systems would maximise their potential, transferring or correlating data between different systems may open entirely new use cases or valuable insights.
 
-### Problem Domains
+A range of informal conversations were held on the need to address interoperability between a range of individuals and initiatives throughout 2019. ((organisations)) agreed to jointly convene a first meeting ... In its [DEQAR CONNECT project](https://www.eqar.eu/kb/projects/deqar-connect/), EQAR undertook to convene a roundtable of higher education data-related projects and initiatives.
 
-There are a number of problem domains, some more pressing than others. The following inventory is in order of priority:
+Overview of Problem Domains
+---------------------------
 
-#### Identifiers
+There are various problem domains, some more pressing than others. The following inventory is in order of priority:
+
+### Identifiers
 
 Identifiers are needed to unambiguously identify entities when communicating or transfering data between systems. The following entities frequently need to be identified in higher education:
 
@@ -23,7 +27,7 @@ Identifiers are needed to unambiguously identify entities when communicating or 
 
 For countries, ISO codes are established identifiers.
 
-Higher education institutions are a pivotal enitity, institutional identifiers thus a matter of priority. Various approaches already exist (e.g. PIC, ETER, Erasmus Code, EIDAS), but are not articulated to each other. At the same time, given less than 10000 HEIs in Europe the numbers are relatively managable.
+Higher education institutions are a pivotal enitity, and institutional identifiers thus a matter of priority. Various approaches already exist (e.g. PIC, ETER, Erasmus Code, EIDAS), but are not articulated to each other. At the same time, given less than 10000 HEIs in Europe the numbers are relatively managable.
 
 For study programmes, courses and students numbers are larger by magnitudes.
 
@@ -31,7 +35,7 @@ For students, a European Student ID is under development as a federated/delegate
 
 **To add:** overview of existing course or programme identifiers, if any
 
-#### Data Structure
+### Data Structure
 
 Different systems should use agreed data models/structures, or at least make the data models/structures they use fully transparent. This will allow easy communication and conversion of data between systems.
 
@@ -46,16 +50,18 @@ At European level, it might be useful to agree on minimum common data formats fo
 
 Different organisations, dealing with such data, have already developed their data models. These should be used as a starting point.
 
-#### Data Availability
+### Data Availability
 
 Data on students and their achievement is personal data and will thus generally be private.
 
 All other data discussed herein (institutions, courses, etc.) is inherently public. In addition to being accessible through a public web interface, all projects/systems should also make their data fully open and accessible for download or through an API.
 
-#### Data Portability
-#### Other Issues
+### Data Portability
 
-## Initiatives Requiring Interoperability
+### Other Issues
+
+Initiatives Requiring Interoperability
+--------------------------------------
 
 There are numerous local, regional, national, European and international initiatives that deal with data in higher education. In the beginning, HEIDI aims to bring together the essential European-level projects and systems, focusing on publicly-funded or publicly-endorsed ones.
 
@@ -69,7 +75,8 @@ There are numerous local, regional, national, European and international initiat
 - DiploMe?
 - IAU WHED?
 
-## Design Requirements for an Interoperability Initiative
+Design Requirements for an Interoperability Initiative
+------------------------------------------------------
 
 Given the rapid progress of these initiatives and the policy priority attached to digitalisation, the Initiative needs to be able to act and reach agreement on crucial standards quickly.
 
@@ -88,10 +95,8 @@ The Initiative recognises that different organisations each manage specific init
 ### Licence Requirements
 Free (as in air)
 
-### Use-Case (Sector-Specific) Requirements
-There must be a link to QA data
-
-## Applications & Priorities
+Applications & Priorities
+-------------------------
 
 The following sections list concrete problem domains that should be tackled, in order of priority:
 
@@ -109,36 +114,38 @@ If HEI Identifiers are solved, it becomes easy to solve course identifiers, via 
 
 Other problem domains should be added over time
 
-## Coordinating Structure
+Working Methods
+---------------
 
-A range of informal conversations were held on the need to address interoperability between a range of individuals and initiatives throughout 2019.
-
-### Working Methods
-((organisations)) agreed to jointly convene a first meeting ... In its [DEQAR CONNECT project](https://www.eqar.eu/kb/projects/deqar-connect/), EQAR undertook to convene a roundtable of higher education data-related projects and initiatives. 
+Any group of members of the group may propose a problem domain to be addressed. Prioritisation of problem domains are the remit of the whole group.
 
 Each problem domain should be tackled via regular web conferences, held at least once a month. 
 
 Typically a problem domain should be managed by a *policy group* supported by a *technical group* who gives independent technical advice to the policy group.
 
-### Working Procedure
-Any group of members of the group may propose a problem domain to be addressed. Prioritisation of problem domains are the remit of the whole group.
-
 Each problem domain must follow a standardised procedure for resolution:
 
-**Definition of Use Cases**
-Definition of use cases is the first step. It involves member organisations explaining the issues they wish to solve under the problem domain. Use cases must be accepted by the group working on the domain for inclusion. A procedure is outlined [here](Supporting/UseCaseTemplate.md). Use cases should ideally be defined by persons who work with them.
+1.  **Definition of Use Cases**
 
-**Proposal of Requirements**
-Based on the use cases a proposal for requirements for a technical solution will be prepared. The requirements set the minimum criteria the solution must meet to be considered acceptable. Requirements should be made on the proposal of technical experts, and endorsed by the wider policy group.
+    Definition of use cases is the first step. It involves member organisations explaining the issues they wish to solve under the problem domain. Use cases must be accepted by the group working on the domain for inclusion. A procedure is outlined [here](Supporting/UseCaseTemplate.md). Use cases should ideally be defined by persons who work with them.
 
-**Outline of Scenarios for Technical Solutions**
-It is the mandate of the technical group to propose a menu of technical scenarios which match the requirements. The following provides high-level guidance on possible [architectural scenarios](Supporting/Architectural Scenarios).
+2.  **Proposal of Requirements**
 
-**Selection of a Preferred Implementation Scenario**
-The policy group will discuss, improve and select a preferred implementation scenario from the options presented.
+    Based on the use cases a proposal for requirements for a technical solution will be prepared. The requirements set the minimum criteria the solution must meet to be considered acceptable. Requirements should be made on the proposal of technical experts, and endorsed by the wider policy group.
 
-**Publication of Standard**
-The decision of the policy group will then be translated into a documented agreement covering policy, governance, content and  technical aspects, to be authored jointly by the policy and technical groups.
+3.  **Outline of Scenarios for Technical Solutions**
 
-**Agreement of  Standard**
-Once the standard is published, members/organisations should notify their implementation of it.
+    It is the mandate of the technical group to propose a menu of technical scenarios which match the requirements. The following provides high-level guidance on possible [architectural scenarios](Supporting/Architectural Scenarios.md).
+
+4.  **Selection of a Preferred Implementation Scenario**
+
+    The policy group will discuss, improve and select a preferred implementation scenario from the options presented.
+
+5.  **Publication of Standard**
+
+    The decision of the policy group will then be translated into a documented agreement covering policy, governance, content and  technical aspects, to be authored jointly by the policy and technical groups.
+
+6.  **Agreement of  Standard**
+
+    Once the standard is published, members/organisations should notify their implementation of it.
+
