@@ -15,4 +15,6 @@ Use cases should be described using the following criteria:
 ## Procedure
 Anyone may submit a use case for consideration by submitting a Pull Request or by filing an Issue with the use case to this Github. 
 
+You MAY formulate your use case as an amendment/extension to an already existing one, if that seems most suitable.
+
 Once a use case is accepted, requirements MUST take the use case into consideration.
