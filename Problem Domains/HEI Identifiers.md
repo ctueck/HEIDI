@@ -45,13 +45,13 @@ For example, the user might recieve student mobility data, such as a transcript 
 
 ### Populate EDCI Accreditation Database
 
-**Actor:** national authority
+**Actor:** Europass National Offices
 
-**Submitter:** [Colin Tück](https://github.com/ctueck)
+**Submitter:** [Anthony F. Camilleri](https://github.com/anthonycamilleri)
 
-**User Story:** The authority wants to populate the Accreditation Database for Europass Digital Credentials with data on quality-assured HEIs that is already available in DEQAR.
+**User Story:** The user wishes to collect national data on courses, qualifications and institutional/programme accreditations, and upload these to Europass to power the 'course search', as well as the 'accreditation check' for digitially signed credentials. The identifiers used for data collection at national level should ensure no duplication of data, while the identifiers sent to Europass should resolve back to the institutions, and also not be duplicated with identififiers from other Member States/data suppliers.
 
-**Restrictions:** none
+**Restrictions:** All institutions in the database must be represented by a URI due to requirements arising from the [W3C Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) standard.
 
 ### Correlate Datasets
 
