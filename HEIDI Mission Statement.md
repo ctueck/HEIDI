@@ -103,7 +103,7 @@ The following sections list concrete problem domains that should be tackled, in 
 ### Higher Education Institution Identifiers
 
 Given their crucial importance, we suggest that Higher Education Institution Identifiers be the first problem domain to be concretely addressed.
-The following [whitepaper](Problem Domains/HEI Identifiers.md) discusses options for HEI Identifiers.
+The following [whitepaper](Problem%20Domains/HEI%20Identifiers.md) discusses options for HEI Identifiers.
 
 ### Minimum Common Data Formats
 An agreement would cover the minimum fields different data models should harmonise, for the purposes of promoting interoperability.
@@ -135,7 +135,7 @@ Each problem domain must follow a standardised procedure for resolution:
 
 3.  **Outline of Scenarios for Technical Solutions**
 
-    It is the mandate of the technical group to propose a menu of technical scenarios which match the requirements. The following provides high-level guidance on possible [architectural scenarios](Supporting/Architectural Scenarios.md).
+    It is the mandate of the technical group to propose a menu of technical scenarios which match the requirements. The following provides high-level guidance on possible [architectural scenarios](Supporting/Architectural%20Scenarios.md).
 
 4.  **Selection of a Preferred Implementation Scenario**
 
