@@ -4,7 +4,7 @@ Higher Education Interoperable Data Initiative (HEIDI)
 Introduction and Goals
 ----------------------
 
-There are a number of data-related projects and systems in European higher education, tackling student data, statistics or databases of institutions, amongst others. At the moment, we are not really interoperable. This creates costs, ineffeciencies and lack of transparency.
+There are a number of data-related projects and systems in European higher education, tackling student data, statistics or databases of institutions, amongst others. At the moment, we are not really interoperable. This creates costs, ineffeciencies and lack of transparency. In their draft Rome Communiqué[[1]](#f1), to be adopted in November 2020, European ministers of higher education recognise the need "to enhance the interoperability of digital systems and the exchange of student and institutional data, in full respect of privacy and security".
 
 We would like to see these projects/systems interoperate seamlessly and thus serve best a large number of users in the European higher education community. Better linking the various data sets and systems would maximise their potential, transferring or correlating data between different systems may open entirely new use cases or valuable insights.
 
@@ -149,3 +149,6 @@ Each problem domain must follow a standardised procedure for resolution:
 
     Once the standard is published, members/organisations should notify their implementation of it.
 
+<hr />
+
+<span id="f1">\[1\]</span> see [BFUG Meeting 71 June 2020 - Draft 5 Rome Communiqué](http://www.ehea.info/Upload/BFUG_HR_UA_71_9_Draft_5_Rome_Communique.pdf)
