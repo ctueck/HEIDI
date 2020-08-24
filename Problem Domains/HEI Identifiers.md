@@ -73,6 +73,14 @@ For example, the user might recieve student mobility data, such as a transcript 
 
 **Restrictions:** none
 
+### Geographic Clustering
+
+**Actor:** HEI, student, university staff
+
+**Submitter:** [European University Foundation](https://github.com/EuropeanUniversityFoundation)
+
+**User Story:** The user wishes to cluster HEIs by geographical location, preferably based on coordinates. (NUTS2 regions are not universally available beyond the EU.)
+
 ## Requirements
 
 To be derived from use cases and discussed at first meeting.
