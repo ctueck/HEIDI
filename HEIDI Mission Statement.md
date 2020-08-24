@@ -4,11 +4,13 @@ Higher Education Interoperable Data Initiative (HEIDI)
 Introduction and Goals
 ----------------------
 
-There are a number of data-related projects and systems in European higher education, tackling student data, statistics or databases of institutions, amongst others. At the moment, we are not really interoperable. This creates costs, ineffeciencies and lack of transparency.
+There are a number of data-related projects and systems in European higher education, tackling student data, statistics or databases of institutions, amongst others. At the moment, we are not really interoperable. This creates costs, ineffeciencies and lack of transparency. In their draft Rome Communiqué[[1]](#f1), to be adopted in November 2020, European ministers of higher education recognise the need "to enhance the interoperability of digital systems and the exchange of student and institutional data, in full respect of privacy and security".
 
-We would like to see these projects/systems interoperate seamlessly and thus serve best a large number of users in the European higher education community. Better linking the various data sets and systems would maximise their potential, transferring or correlating data between different systems may open entirely new use cases or valuable insights.
+We would thus like to see these projects/systems interoperate seamlessly and thus serve best a large number of users in the European higher education community. Better linking the various data sets and systems would maximise their potential, transferring or correlating data between different systems may open entirely new use cases or valuable insights.
 
-A range of informal conversations were held on the need to address interoperability between a range of individuals and initiatives throughout 2019. ((organisations)) agreed to jointly convene a first meeting ... In its [DEQAR CONNECT project](https://www.eqar.eu/kb/projects/deqar-connect/), EQAR undertook to convene a roundtable of higher education data-related projects and initiatives.
+A range of informal conversations were held on the need to address interoperability between a range of individuals and initiatives throughout 2019, including the European University Foundation (EUF), the European Quality Assurance Register (EQAR) and the Europass Interoperability Expert. These have worked together to prepare for a first meeting.
+
+In its [DEQAR CONNECT project](https://www.eqar.eu/kb/projects/deqar-connect/), EQAR undertook to convene a roundtable of higher education data-related projects and initiatives, and to initiate a discussion on interoperability. EQAR therefore volunteers to host an initial meeting as part of the DEQAR CONNECT project, but considers that HEIDI should then develop into a self-standing initiative.
 
 Overview of Problem Domains
 ---------------------------
@@ -33,8 +35,6 @@ For study programmes, courses and students numbers are larger by magnitudes.
 
 For students, a European Student ID is under development as a federated/delegated system based on institutional student IDs.
 
-**To add:** overview of existing course or programme identifiers, if any
-
 ### Data Structure
 
 Different systems should use agreed data models/structures, or at least make the data models/structures they use fully transparent. This will allow easy communication and conversion of data between systems.
@@ -58,22 +58,31 @@ All other data discussed herein (institutions, courses, etc.) is inherently publ
 
 ### Data Portability
 
+*(placeholder)*
+
 ### Other Issues
+
+*(placeholder)*
 
 Initiatives Requiring Interoperability
 --------------------------------------
 
-There are numerous local, regional, national, European and international initiatives that deal with data in higher education. In the beginning, HEIDI aims to bring together the essential European-level projects and systems, focusing on publicly-funded or publicly-endorsed ones.
+There are numerous local, regional, national, European and international initiatives that deal with data in higher education. HEIDI aims to bring together the essential European-level projects and systems, focusing on publicly-funded or publicly-endorsed ones with systemic impact on a European scale.
+
+The following initiatives are invited to the initial roundtable:
 
 - Europass Digital Credentials Infrastructure (EDCI)
-- Erasmus Without Papers (EWP)
+- Erasmus Without Paper (EWP)
 - Emrex (implementing ELMO spec)
 - European Student Card (ESC)
+- Erasmus+ App
 - My Academic ID
 - Database of External Quality Assurance Results (DEQAR)
 - European Tertiary Education Register (ETER)
-- DiploMe?
-- IAU WHED?
+- DiploMe
+- IAU World Higher Education Database (WHED)
+
+Additional initiatives might join HEIDI in agreement with those already involved.
 
 Design Requirements for an Interoperability Initiative
 ------------------------------------------------------
@@ -103,7 +112,7 @@ The following sections list concrete problem domains that should be tackled, in 
 ### Higher Education Institution Identifiers
 
 Given their crucial importance, we suggest that Higher Education Institution Identifiers be the first problem domain to be concretely addressed.
-The following [whitepaper](Problem Domains/HEI Identifiers.md) discusses options for HEI Identifiers.
+The following [whitepaper](Problem%20Domains/HEI%20Identifiers.md) discusses options for HEI Identifiers.
 
 ### Minimum Common Data Formats
 An agreement would cover the minimum fields different data models should harmonise, for the purposes of promoting interoperability.
@@ -135,7 +144,7 @@ Each problem domain must follow a standardised procedure for resolution:
 
 3.  **Outline of Scenarios for Technical Solutions**
 
-    It is the mandate of the technical group to propose a menu of technical scenarios which match the requirements. The following provides high-level guidance on possible [architectural scenarios](Supporting/Architectural Scenarios.md).
+    It is the mandate of the technical group to propose a menu of technical scenarios which match the requirements. The following provides high-level guidance on possible [architectural scenarios](Supporting/Architectural%20Scenarios.md).
 
 4.  **Selection of a Preferred Implementation Scenario**
 
@@ -149,3 +158,9 @@ Each problem domain must follow a standardised procedure for resolution:
 
     Once the standard is published, members/organisations should notify their implementation of it.
 
+<hr />
+
+<span id="f1">\[1\]</span> see [BFUG Meeting 71 June 2020 - Draft 5 Rome Communiqué](http://www.ehea.info/Upload/BFUG_HR_UA_71_9_Draft_5_Rome_Communique.pdf)
+
+<img src="https://www.eqar.eu/assets/uploads/2018/04/LogosBeneficairesErasmusLEFT_EN-e1524042594488.jpg" align="right" />
+*The DEQAR CONNECT project is co-funded by the European Union's Erasmus+ programme. The EU support does not constitute an endorsement of the contents of this material, which reflects the views only of the authors, and the Commission cannot be held responsible for any use which may be made of the information contained herein.*
