@@ -63,6 +63,16 @@ For example, the user might recieve student mobility data, such as a transcript 
 
 **Restrictions:** none
 
+### List Higher Education Institutions
+
+**Actor:** HEI, student, university staff
+
+**Submitter:** [Jeroen van Lent](https://github.com/jeroenvl)
+
+**User Story:** The user wishes to access a list of current Higher Education Institutions in Europe, and preferably also globally. This include names in English as well as in local language and also distinguish the business/brand name, should that be different from the legal name + official abbreviation. This list should be made available to a directory of HEIs as well as made available to various student information systems and student data exchange applications.
+
+**Restrictions:** none
+
 ## Requirements
 
 To be derived from use cases and discussed at first meeting.
