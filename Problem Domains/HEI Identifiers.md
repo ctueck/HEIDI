@@ -2,7 +2,7 @@
 
 ## Relevance
 
-Higher education institutions (HEIs) are a pivotal enitity for many different systems and applications. Institutional identifiers are thus a matter of priority.
+Higher education institutions (HEIs) are a pivotal entity for many different systems and applications. Institutional identifiers are thus a matter of priority.
 
 With less than 10000 HEIs in Europe the numbers are relatively managable, but yet large enough to warrant some standardisation to allow for data exchange without manual intervention or mapping.
 
@@ -80,6 +80,16 @@ For example, the user might recieve student mobility data, such as a transcript 
 **Submitter:** [European University Foundation](https://github.com/EuropeanUniversityFoundation)
 
 **User Story:** The user wishes to cluster HEIs by geographical location, preferably based on coordinates. (NUTS2 regions are not universally available beyond the EU.)
+
+### Navigate Institutional History
+
+**Actor:** HEI, recognition officer, researcher
+
+**Submitter:** [Colin Tück](https://github.com/ctueck)
+
+**User Story:** The user wishes to identify HEIs by former names (including former institutions) and to follow (past or present) links between HEIs (e.g. consortia, merged institutions, spin offs, etc.).
+
+**Restrictions:** none
 
 ## Requirements
 
