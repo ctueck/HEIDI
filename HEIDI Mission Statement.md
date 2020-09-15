@@ -39,15 +39,6 @@ For students, a European Student ID is under development as a federated/delegate
 
 Different systems should use agreed data models/structures, or at least make the data models/structures they use fully transparent. This will allow easy communication and conversion of data between systems.
 
-At European level, it might be useful to agree on minimum common data formats for describing:
-
-1. Information on countries and their higher education system(s)
-1. Basic information on higher education institutions
-1. Information on study programmes
-1. Information on quality assurance (of an institution or programme)
-1. Information on student achievements (credits)
-1. Information on a qualification awarded
-
 Different organisations, dealing with such data, have already developed their data models. These should be used as a starting point.
 
 ### Data Availability
@@ -115,7 +106,14 @@ Given their crucial importance, we suggest that Higher Education Institution Ide
 The following [whitepaper](Problem%20Domains/HEI%20Identifiers.md) discusses options for HEI Identifiers.
 
 ### Minimum Common Data Formats
-An agreement would cover the minimum fields different data models should harmonise, for the purposes of promoting interoperability.
+An agreement would cover the minimum fields different data models should harmonise, for the purposes of promoting interoperability.  At European level, it might be useful to agree on minimum common data formats for describing:
+
+1. Information on countries and their higher education system(s)
+1. Basic information on higher education institutions
+1. Information on study programmes
+1. Information on quality assurance (of an institution or programme)
+1. Information on student achievements (credits)
+1. Information on a qualification awarded
 
 ### Course Identifiers
 
