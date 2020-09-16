@@ -116,7 +116,7 @@ Each problem domain must follow a standardised procedure for resolution:
 
 3.  **Outline of Scenarios for Technical Solutions**
 
-    It is the mandate of the technical group to propose a menu of technical scenarios which match the requirements. The following provides high-level guidance on possible [architectural scenarios](Supporting/Architectural%20Scenarios.md).
+    It is the mandate of the technical group to propose a menu of technical scenarios which match the requirements. The following provides high-level guidance on possible [architectural scenarios](Supporting/Architectural_Scenarios.md).
 
 4.  **Selection of a Preferred Implementation Scenario**
 
