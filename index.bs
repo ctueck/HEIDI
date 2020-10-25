@@ -10,6 +10,15 @@ Abstract: Mission Statement of the HEIDI Initiative
 Markup Shorthands: markdown yes
 </pre>
 
+<pre class="biblio">
+{
+    "LER-WRAPPER": {
+        "href": "http://www.ehea.info/Upload/BFUG_HR_UA_71_9_Draft_5_Rome_Communique.pdf",
+        "title": "BFUG Meeting 71 June 2020 - Draft 5 Rome Communiqué",
+        "publisher": Bologna Follow-Up Group"
+    }
+}
+</pre>    
 
 Introduction and Goals {#intro}
 =====================
