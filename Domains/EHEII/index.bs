@@ -1,182 +1,116 @@
 <pre class='metadata'>
 Title: European Higher Education Institution Identifiers
-Shortname: HEIDI
-Level: 2
+Shortname: EHEII
+Level: 1
 Status: LS
 URL: https://knowledge-innovation-centre.github.io/HEIDI/Domains/EHEII
 Editor: Anthony F. Camilleri, Knowledge Innovation Centre https://knowledgeinnovation.eu, anthony@knowledgeinnovation.eu
 Editor: Colin Tück, European Quality Assurance Register https://eqar.eu, colin.tueck@eqar.eu
 Abstract: Mission Statement of the HEIDI Initiative
 Markup Shorthands: markdown yes
-</pre>
+</pre>   
 
-<pre class="biblio">
-{
-    "LER-WRAPPER": {
-        "href": "http://www.ehea.info/Upload/BFUG_HR_UA_71_9_Draft_5_Rome_Communique.pdf",
-        "title": "BFUG Meeting 71 June 2020 - Draft 5 Rome Communiqué",
-        "publisher": Bologna Follow-Up Group"
-    }
-}
-</pre>    
-
-Introduction and Goals {#intro}
+Relevance
 =====================
 
-There are a number of data-related projects and systems in European higher education, tackling student data, statistics or databases of institutions, amongst others. At the moment, we are not really interoperable. This creates costs, ineffeciencies and lack of transparency. In their draft Rome Communiqué, to be adopted in November 2020, European ministers of higher education recognise the need "to enhance the interoperability of digital systems and the exchange of student and institutional data, in full respect of privacy and security".
+Higher education institutions (HEIs) are a pivotal entity for many different systems and applications. Institutional identifiers are thus a matter of priority.
 
-We would thus like to see these projects/systems interoperate seamlessly and thus serve best a large number of users in the European higher education community. Better linking the various data sets and systems would maximise their potential, transferring or correlating data between different systems may open entirely new use cases or valuable insights.
+With less than 10000 HEIs in Europe the numbers are relatively managable, but yet large enough to warrant some standardisation to allow for data exchange without manual intervention or mapping.
 
-A range of informal conversations were held on the need to address interoperability between a range of individuals and initiatives throughout 2019, including the European University Foundation (EUF), the European Quality Assurance Register (EQAR) and the Europass Interoperability Expert. These have worked together to prepare for a first meeting.
-
-In its [DEQAR CONNECT project](https://www.eqar.eu/kb/projects/deqar-connect/), EQAR undertook to convene a roundtable of higher education data-related projects and initiatives, and to initiate a discussion on interoperability. EQAR therefore volunteers to host an initial meeting as part of the DEQAR CONNECT project, but considers that HEIDI should then develop into a self-standing initiative.
-
-Overview of Problem Domains {#problems}
+Existing systems
 =====================
 
-There are various problem domains, some more pressing than others. The following inventory is in order of priority:
+Various approaches already exist to identify higher education institutions in Europe:
 
-## Identifiers
+| Identifier               | Maintained by         | Used in                | Link                                                                      | Comment                                              |
+|:-------------------------|:----------------------|:-----------------------|:--------------------------------------------------------------------------|:-----------------------------------------------------|
+| PIC                      | EU                    | EU programmes, European Student Card | [EU portal](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/participant-register) |     |
+| Erasmus Institution Code | EU                    | Erasmus+               | [EU page](https://eacea.ec.europa.eu/erasmus-plus/actions/erasmus-charter_en)   |                                                |
+| eIDAS identifier         | EU                    | EDCI                   | [EU page](https://ec.europa.eu/digital-single-market/en/trust-services-and-eid) | Just an organisational identifier. Not HE specific   |
+| SCHAC                    | Géant                 | ELMO, Emrex, EWP       | [SCHAC](https://wiki.refeds.org/display/STAN/SCHAC)                       |                                                      |
+| ETER ID                  | EU-funded consortium  | ETER, OrgReg, DEQAR    | [ETER](https://eter-project.com/#/home)                                   |                                                      |
+| DEQARINST ID		   | EQAR		   | DEQAR		    | [DEQAR data set](https://www.eqar.eu/qa-results/get-data/download-data-sets/) | main need for HEIs not contained in ETER         |
 
-Identifiers are needed to unambiguously identify entities when communicating or transfering data between systems. The following entities frequently need to be identified in higher education:
+The [EWP Registry Service](https://github.com/erasmus-without-paper/ewp-specs-api-registry/#registry-service) provides an accessible mapping between SCHAC, PIC and Erasmus codes for a number, but not all HEIs in Europe. The EU provides a [spreadsheet](https://eacea.ec.europa.eu/erasmus-plus/actions/erasmus-charter_en) of Erasmus Institution Codes, including the related PIC code.
 
-1. Countries and higher education systems
-1. Higher education institutions
-1. Study programmes
-1. Courses or modules
-1. Students
+Given that each organisation has their own approach how to deal with demographic changes (e.g. mergers), there is not necessarily a one-to-one relationship between different identifiers.
 
-For countries, ISO codes are established identifiers.
+In conclusion, existing identifiers for HEIs in Europe are currently not fully articulated to each other.
 
-Higher education institutions are a pivotal enitity, and institutional identifiers thus a matter of priority. Various approaches already exist (e.g. PIC, ETER, Erasmus Code, EIDAS), but are not articulated to each other. At the same time, given less than 10000 HEIs in Europe the numbers are relatively managable.
-
-For study programmes, courses and students numbers are larger by magnitudes.
-
-For students, a European Student ID is under development as a federated/delegated system based on institutional student IDs.
-
-## Data Structure
-
-Different systems should use agreed data models/structures, or at least make the data models/structures they use fully transparent. This will allow easy communication and conversion of data between systems. An agreement would cover the minimum fields different data models should harmonise, for the purposes of promoting interoperability.
-
-Different organisations, dealing with such data, have already developed their data models. These should be used as a starting point.
-
-## Data Availability
-
-Data on students and their achievement is personal data and will thus generally be private.
-
-All other data discussed herein (institutions, courses, etc.) is inherently public. In addition to being accessible through a public web interface, all projects/systems should also make their data fully open and accessible for download or through an API.
-
-## Data Portability
-
-*(placeholder)*
-
-## Other Issues
-
-*(placeholder)*
-
-Initiatives Requiring Interoperability {#initiatives}
+Use Cases
 =====================
 
-There are numerous local, regional, national, European and international initiatives that deal with data in higher education. HEIDI aims to bring together the essential European-level projects and systems, focusing on publicly-funded or publicly-endorsed ones with systemic impact on a European scale.
+The following use cases should be made possible/be facilitated by an enhanced approach to HEI identifiers.
 
-The following initiatives are invited to the initial roundtable:
+**NB: This is an initial collection of use cases. We aim to supplement those with contributions from stakeholders during the discussion. Use cases should be defined in line with [this template](../Supporting/UseCaseTemplate.md).**
 
-- Europass Digital Credentials Infrastructure (EDCI)
-- Erasmus Without Paper (EWP)
-- Emrex (implementing ELMO spec)
-- European Student Card (ESC)
-- Erasmus+ App
-- My Academic ID
-- Database of External Quality Assurance Results (DEQAR)
-- European Tertiary Education Register (ETER)
-- DiploMe
-- IAU World Higher Education Database (WHED)
+## Cross-check Institution Data
 
-Additional initiatives might join HEIDI in agreement with those already involved.
+**Actor:** HEI, recognition officer, student, employer
 
-Design Requirements for an Interoperability Initiative {#design-req}
+**Submitter:** [Colin Tück](https://github.com/ctueck)
+
+**User Story:** The users receives data from or about a HEI, and wishes to automatically search another database for additional data about the HEI concerned.
+
+For example, the user might recieve student mobility data, such as a transcript of records, via EMREX or EWP, or a qualification from a student applying for recognition. The user wants to acquire information on the sending institution's quality assurance status from DEQAR.
+
+**Restrictions:** none
+
+## Populate EDCI Accreditation Database
+
+**Actor:** Europass National Offices
+
+**Submitter:** [Anthony F. Camilleri](https://github.com/anthonycamilleri)
+
+**User Story:** The user wishes to collect national data on courses, qualifications and institutional/programme accreditations, and upload these to Europass to power the 'course search', as well as the 'accreditation check' for digitially signed credentials. The identifiers used for data collection at national level should ensure no duplication of data, while the identifiers sent to Europass should resolve back to the institutions, and also not be duplicated with identififiers from other Member States/data suppliers.
+
+**Restrictions:** All institutions in the database must be represented by a URI due to requirements arising from the [W3C Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) standard.
+
+## Correlate Datasets
+
+**Actor:** researcher, policy maker, statistics office
+
+**Submitter:** [Colin Tück](https://github.com/ctueck)
+
+**User Story:** The user has data on a number of HEIs in Europe and wishes to correlate this with other data or statistics on the same HEIs, e.g. from ETER.
+
+**Restrictions:** none
+
+## List Higher Education Institutions
+
+**Actor:** HEI, student, university staff
+
+**Submitter:** [Jeroen van Lent](https://github.com/jeroenvl)
+
+**User Story:** The user wishes to access a list of current Higher Education Institutions in Europe, and preferably also globally. This include names in English as well as in local language and also distinguish the business/brand name, should that be different from the legal name + official abbreviation. This list should be made available to a directory of HEIs as well as made available to various student information systems and student data exchange applications.
+
+**Restrictions:** none
+
+## Geographic Clustering
+
+**Actor:** HEI, student, university staff
+
+**Submitter:** [European University Foundation](https://github.com/EuropeanUniversityFoundation)
+
+**User Story:** The user wishes to cluster HEIs by geographical location, preferably based on coordinates. (NUTS2 regions are not universally available beyond the EU.)
+
+## Navigate Institutional History
+
+**Actor:** HEI, recognition officer, researcher
+
+**Submitter:** [Colin Tück](https://github.com/ctueck)
+
+**User Story:** The user wishes to identify HEIs by former names (including former institutions) and to follow (past or present) links between HEIs (e.g. consortia, merged institutions, spin offs, etc.).
+
+**Restrictions:** none
+
+Requirements
 =====================
 
-Given the rapid progress of these initiatives and the policy priority attached to digitalisation, the Initiative needs to be able to act and reach agreement on crucial standards quickly.
+To be derived from use cases and discussed at first meeting.
 
-## Scope 
-
-It is suggested that the Initiative focuses on higher education within the 48 countries making up the European Higher Education Area (EHEA). (Nevertheless, results might be scalable geographically or transferable to other sectors later on.)
-
-## Governance Requirements
-
-The Initiative should be stakeholder-led, that is, driven by the initiatives concerned. The organisations running these initiatives have expertise in their field and are best-placed to agree on standards jointly.
-
-It should be ensured that the European Commission, governments and further stakeholders (e.g. European representative organisations) endorse the Initiative's efforts and standards. Given the scope, this could be best achieved by informing the EHEA's working structures, i.e. the Bologna Follow-Up Group (BFUG), and possibly suggesting that the Initiative become part of the 2020-2023 EHEA work programme.
-
-The Initiative recognises that different organisations each manage specific initiatives/systems within their own remit, and does not aim to change these.
-
-## Licence Requirements
-Free (as in air)
-
-Working Methods {#heidi-working-methods}
+Options
 =====================
 
-Any group of members of the group may propose a problem domain to be addressed. Prioritisation of problem domains are the remit of the whole group.
-
-Each problem domain should be tackled via regular web conferences, held at least once a month. 
-
-Typically a problem domain should be managed by a *policy group* supported by a *technical group* who gives independent technical advice to the policy group.
-
-Each problem domain must follow a standardised procedure for resolution:
-
-1.  **Definition of Use Cases**
-
-    Definition of use cases is the first step. It involves member organisations explaining the issues they wish to solve under the problem domain. Use cases must be accepted by the group working on the domain for inclusion. A procedure is outlined [here](Supporting/UseCaseTemplate.md). Use cases should ideally be defined by persons who work with them.
-
-2.  **Proposal of Requirements**
-
-    Based on the use cases a proposal for requirements for a technical solution will be prepared. The requirements set the minimum criteria the solution must meet to be considered acceptable. Requirements should be made on the proposal of technical experts, and endorsed by the wider policy group.
-
-3.  **Outline of Scenarios for Technical Solutions**
-
-    It is the mandate of the technical group to propose a menu of technical scenarios which match the requirements. The following provides high-level guidance on possible [architectural scenarios](Supporting/Architectural_Scenarios.md).
-
-4.  **Selection of a Preferred Implementation Scenario**
-
-    The policy group will discuss, improve and select a preferred implementation scenario from the options presented.
-
-5.  **Publication of Standard**
-
-    The decision of the policy group will then be translated into a documented agreement covering policy, governance, content and  technical aspects, to be authored jointly by the policy and technical groups.
-
-6.  **Agreement of  Standard**
-
-    Once the standard is published, members/organisations should notify their implementation of it.
-
-
-Applications & Priorities {#priorities}
-=====================
-
-The following sections list concrete problem domains that should be tackled, in order of priority:
-
-## Higher Education Institution Identifiers
-Given their crucial importance, we suggest that Higher Education Institution Identifiers be the first problem domain to be concretely addressed.
-The following [whitepaper](Problem%20Domains/HEI%20Identifiers.md) discusses options for HEI Identifiers.
-
-## Minimum Common Data Formats
-An agreement would cover the minimum fields different data models should harmonise, for the purposes of promoting interoperability.  At European level, it might be useful to agree on minimum common data formats for describing:
-
-1. Information on countries and their higher education system(s)
-1. Basic information on higher education institutions
-1. Information on study programmes
-1. Information on quality assurance (of an institution or programme)
-1. Information on student achievements (credits)
-1. Information on a qualification awarded
-
-## Course Identifiers
-
-If HEI Identifiers are solved, it becomes easy to solve course identifiers, via a specification that sets a course identifier as HEI Identifier/Course Identifier. We therefore would propose addressing this issue after HEI Identifiers
-
-Other problem domains should be added over time
-
-<hr />
-
-<img src="https://www.eqar.eu/assets/uploads/2018/04/LogosBeneficairesErasmusLEFT_EN-e1524042594488.jpg" align="right" />
-*The DEQAR CONNECT project is co-funded by the European Union's Erasmus+ programme. The EU support does not constitute an endorsement of the contents of this material, which reflects the views only of the authors, and the Commission cannot be held responsible for any use which may be made of the information contained herein.*
+To be elaborated and discussed after first meeting.
 
