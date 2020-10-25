@@ -14,7 +14,7 @@ Markup Shorthands: markdown yes
 {
     "LER-WRAPPER": {
         "href": "http://www.ehea.info/Upload/BFUG_HR_UA_71_9_Draft_5_Rome_Communique.pdf",
-        "title": "BFUG Meeting 71 June 2020 - Draft 5 Rome Communiqué",
+        "title": "Draft Rome Communiqué",
         "publisher": Bologna Follow-Up Group"
     }
 }
@@ -23,7 +23,7 @@ Markup Shorthands: markdown yes
 Introduction and Goals {#intro}
 =====================
 
-There are a number of data-related projects and systems in European higher education, tackling student data, statistics or databases of institutions, amongst others. At the moment, we are not really interoperable. This creates costs, ineffeciencies and lack of transparency. In their draft Rome Communiqué, to be adopted in November 2020, European ministers of higher education recognise the need "to enhance the interoperability of digital systems and the exchange of student and institutional data, in full respect of privacy and security".
+There are a number of data-related projects and systems in European higher education, tackling student data, statistics or databases of institutions, amongst others. At the moment, we are not really interoperable. This creates costs, ineffeciencies and lack of transparency. In their [[Draft Rome Communiqué]], to be adopted in November 2020, European ministers of higher education recognise the need "to enhance the interoperability of digital systems and the exchange of student and institutional data, in full respect of privacy and security".
 
 We would thus like to see these projects/systems interoperate seamlessly and thus serve best a large number of users in the European higher education community. Better linking the various data sets and systems would maximise their potential, transferring or correlating data between different systems may open entirely new use cases or valuable insights.
 
