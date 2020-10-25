@@ -1,9 +1,9 @@
 <pre class='metadata'>
 Title: Higher Education Interoperable Data Initiative (HEIDI)
-Shortname:heidi
+Shortname: HEIDI
 Level: 1
 Status: LD
-URL: Your spec url
+URL: https://knowledge-innovation-centre.github.io/HEIDI/
 Editor: Anthony F. Camilleri, Knowledge Innovation Centre https://knowledgeinnovation.eu, anthony@knowledgeinnovation.eu
 Editor: Colin Tück, European Quality Assurance Register https://eqar.eu, colin.tueck@eqar.eu
 Abstract: Mission Statement of the HEIDI Initiative
