@@ -22,14 +22,17 @@ Existing systems
 
 Various approaches already exist to identify higher education institutions in Europe:
 
-| Identifier               | Maintained by         | Used in                | Link                                                                      | Comment                                              |
-|:-------------------------|:----------------------|:-----------------------|:--------------------------------------------------------------------------|:-----------------------------------------------------|
-| PIC                      | EU                    | EU programmes, European Student Card | [EU portal](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/participant-register) |     |
-| Erasmus Institution Code | EU                    | Erasmus+               | [EU page](https://eacea.ec.europa.eu/erasmus-plus/actions/erasmus-charter_en)   |                                                |
-| eIDAS identifier         | EU                    | EDCI                   | [EU page](https://ec.europa.eu/digital-single-market/en/trust-services-and-eid) | Just an organisational identifier. Not HE specific   |
-| SCHAC                    | Géant                 | ELMO, Emrex, EWP       | [SCHAC](https://wiki.refeds.org/display/STAN/SCHAC)                       |                                                      |
-| ETER ID                  | EU-funded consortium  | ETER, OrgReg, DEQAR    | [ETER](https://eter-project.com/#/home)                                   |                                                      |
-| DEQARINST ID		   | EQAR		   | DEQAR		    | [DEQAR data set](https://www.eqar.eu/qa-results/get-data/download-data-sets/) | main need for HEIs not contained in ETER         |
+<table>
+<thead>
+<tr><td>Identifier<td>Maintained by<td>Used in<td>Link<td>Comment
+</thead>
+ <tr><td>PIC<td>EU<td>EU programmes, European Student Card<td>[EU portal](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/participant-register)<td>
+ <tr><td>Erasmus Institution Code<td>EU<td>Erasmus+<td>[EU page](https://eacea.ec.europa.eu/erasmus-plus/actions/erasmus-charter_en)<td>
+ <tr><td>eIDAS identifier<td>EU<td>Europass Digital Credentials<td>[EU page](https://ec.europa.eu/digital-single-market/en/trust-services-and-eid)<td>Just an organisational identifier. Not HE specific
+ <tr><td>SHAC<td>Géant<td>ELMO, Emrex, EWP<td>SHAC<td>
+ <tr><td>ETER ID<td>EU funded consortium<td>ETER, OrgReg, DEQAR<td>ETER<td>
+ <tr><td>DEQARINST ID<td>EQAR<td>DEQAR<td>DEQAR data set<td>
+</table>
 
 The [EWP Registry Service](https://github.com/erasmus-without-paper/ewp-specs-api-registry/#registry-service) provides an accessible mapping between SCHAC, PIC and Erasmus codes for a number, but not all HEIs in Europe. The EU provides a [spreadsheet](https://eacea.ec.europa.eu/erasmus-plus/actions/erasmus-charter_en) of Erasmus Institution Codes, including the related PIC code.
 
