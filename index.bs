@@ -158,7 +158,7 @@ The following sections list concrete problem domains that should be tackled, in 
 
 ## Higher Education Institution Identifiers
 Given their crucial importance, we suggest that Higher Education Institution Identifiers be the first problem domain to be concretely addressed.
-The following [whitepaper](Problem%20Domains/HEI%20Identifiers.md) discusses options for HEI Identifiers.
+The following whitepaper [GitHub](https://github.com/HEIDIrepo/EHEII/) [WebPage](https://heidirepo.github.io/EHEII/) discusses options for HEI Identifiers.
 
 ## Minimum Common Data Formats
 An agreement would cover the minimum fields different data models should harmonise, for the purposes of promoting interoperability.  At European level, it might be useful to agree on minimum common data formats for describing:
