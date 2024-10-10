@@ -176,8 +176,8 @@ If HEI Identifiers are solved, it becomes easy to solve course identifiers, via 
 
 Other problem domains should be added over time
 
-<hr />
+<hr>
 
-<img src="https://www.eqar.eu/assets/uploads/2018/04/LogosBeneficairesErasmusLEFT_EN-e1524042594488.jpg" align="right" />
+<img src="https://www.eqar.eu/assets/uploads/2018/04/LogosBeneficairesErasmusLEFT_EN-e1524042594488.jpg" align="right">
 *The DEQAR CONNECT project is co-funded by the European Union's Erasmus+ programme. The EU support does not constitute an endorsement of the contents of this material, which reflects the views only of the authors, and the Commission cannot be held responsible for any use which may be made of the information contained herein.*
 
